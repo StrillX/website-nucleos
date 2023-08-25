@@ -1,0 +1,15 @@
+{
+        "name": "NÚCLEO DE ESTUDANTES DE CIÊNCIAS DA COMPUTAÇÃO",
+        "acronym": "NECC",
+        "description": "A Licenciatura em Ciências da Computação (anteriormente LMCC) é uma parceria do Departamento de Matemática (da Escola de Ciências) e do Departamento de Informática (da Escola de Engenharia) e caracteriza-se por uma visão rigorosa da computação, com uma sólida fundamentação matemática. O NECC é uma associação de estudantes, voluntários, foi criada a 30 de março de 2009 (anteriormente GEMCC) com o intuito de ajudar e representar todos os alunos do curso de Licenciatura de Ciências da Computação da Universidade do Minho. Ao longo de vários anos, aconselhamos os alunos de todos os anos, seja na apresentação no primeiro ano, realização de workshops e contactos com empresas a alunos finalistas.",
+        "email": "necc@di.uminho.pt",
+        "room": "DI sala 1.01",
+        "keywords": "NECC, Ciências da Computação, UMinho, UM, Universidade do Minho",
+        "socials":{
+                "discord": "http://bit.ly/LccDiscord",
+                "instagram": "https://www.instagram.com/necc.uminho/",
+                "github": "https://github.com/NECC"
+        }
+        
+        
+}

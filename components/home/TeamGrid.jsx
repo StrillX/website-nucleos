@@ -38,7 +38,7 @@ const MobileCard = ({ path, name, role }) => {
             <LoadedImage src={path} width={100} height={100} alt="" />
             <figcaption className="w-64 p-4">
                 <h3 className="font-semibold text-gray-700 dark:text-gray-200 mb-1 w-36">{name}</h3>
-                <span className="rounded-full bg-blue-50 dark:bg-blue-200 text-sm py-1 px-2 font-semibold text-blue-700 dark:text-blue-900">{role}</span>
+                <span className="rounded-full bg-bg-accents dark:bg-bg-accents-dark text-sm py-1 px-2 font-semibold text-primary dark:text-primary-dark">{role}</span>
             </figcaption>
         </figure>
     );
@@ -51,7 +51,7 @@ const MemberCard = ({ path, name, role }) => {
                 <LoadedImage className="rounded-full" src={path} alt="" width={100} height={100} />
             </div>
             <h3 className="font-semibold text-gray-700 dark:text-gray-200">{name}</h3>
-            <span className="block rounded-full bg-blue-50 dark:bg-blue-200 text-sm py-1 px-2 font-semibold text-blue-700 dark:text-blue-900">{role}</span>
+            <span className="block rounded-full bg-bg-accents dark:bg-bg-accents-dark text-sm py-1 px-2 font-semibold text-primary dark:text-primary-dark">{role}</span>
         </div>
     );
 }

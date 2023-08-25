@@ -11,10 +11,10 @@ export default function DarkModeButton() {
             role="switch" aria-checked={(theme === "dark") ? "true" : "false"} aria-label="darkmode switch" onClick={toggle}>
             {
                 (theme === "dark")
-                    ? <BsSun className="text-blue-500 text-2xl" />
-                    : <BsMoonStars className="text-blue-500 text-2xl" />
+                    ? <BsSun className="text-primary text-2xl" />
+                    : <BsMoonStars className="text-primary text-2xl" />
             }
-            <span className="icon-moon-outline text-4xl text-gray-200 dark:text-blue-500"></span>
+            <span className="icon-moon-outline text-4xl text-accent dark:text-primary"></span>
         </button>
     );
 } 

@@ -6,7 +6,7 @@ const routes = {
     "Sobre": "/#about-me",
     "Equipa": "/#team",
     "Parceiros": "/#partners",
-    "Loja": "/store",
+    // "Loja": "/store",
     "Contactos": "#contacts",
 }
 
@@ -17,7 +17,7 @@ export default function Navbar() {
         <nav className="bg-white dark:bg-gray-900 p-5 fixed w-full z-10 shadow">
             <div className="container mx-auto flex items-center justify-between flex-wrap">
                 <div
-                    className="flex items-center flex-shrink-0 text-blue-500 dark:text-blue-300 mr-6 transition-colors duration-500 ease-in-out">
+                    className="flex items-center flex-shrink-0 text-primary dark:text-primary-dark mr-6 transition-colors duration-500 ease-in-out">
                     <span className="font-semibold text-2xl sm:text-2xl tracking-tight">NECC</span>
                 </div>
                 <div className="block lg:hidden">
@@ -34,7 +34,7 @@ export default function Navbar() {
                         {
                             Object.entries(routes).map(([name, route], index) =>
                                 <li key={index}>
-                                    <Link href={route} className="block mt-2 py-2 px-4 lg:inline-block lg:mt-0 rounded text-gray-500 hover:text-blue-600 hover:bg-gray-200 dark:text-gray-300 dark:hover:text-blue-500 dark:hover:bg-gray-700 mr-4 transition-colors duration-500 ease-in-out">
+                                    <Link href={route} className="block mt-2 py-2 px-4 lg:inline-block lg:mt-0 rounded text-gray-500 hover:text-primary hover:bg-gray-200 dark:text-gray-300 dark:hover:text-primary dark:hover:bg-gray-700 mr-4 transition-colors duration-500 ease-in-out">
                                         {name}
                                     </Link>
                                 </li>

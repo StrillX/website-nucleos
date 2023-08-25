@@ -17,7 +17,7 @@ function SponsorCard({ path, brand, description, address }) {
                         )
                     }
                 </ul>
-                <span className="text-blue-500 dark:text-blue-300 text-sm inline-flex">
+                <span className="text-primary dark:text-primary-dark text-sm inline-flex">
                     <GiPositionMarker className="text-xl" /> {address}
                 </span>
             </figcaption>
