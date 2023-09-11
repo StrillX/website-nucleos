@@ -7,7 +7,7 @@ export default function DarkModeButton() {
 
     return (
         <button id="darkmode"
-            className="fixed right-4 bottom-16 z-10 h-14 w-14 rounded-full bg-gray-900 dark:bg-gray-100 flex items-center justify-center focus:outline-none focus:ring-2 transition-colors duration-500 ease-in-out"
+            className="fixed right-4 bottom-16 z-10 h-14 w-14 rounded-full bg-gray-900 dark:bg-gray-100 focus:border-accent flex items-center justify-center focus:outline-accent focus:ring-2 ring-accent transition-colors duration-500 ease-in-out"
             role="switch" aria-checked={(theme === "dark") ? "true" : "false"} aria-label="darkmode switch" onClick={toggle}>
             {
                 (theme === "dark")
