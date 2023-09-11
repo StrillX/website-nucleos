@@ -132,7 +132,16 @@ const colors = {
         "bg-accents": "#EC5CE510",
         "bg-accents-dark": "#D136BC20",
     },
-    
+    'custom': {
+        "gradientfrom": "#A3A3A3FF",
+        "gradientto": "#A3A3A378",
+        "accent": "#7A7A7AFF",
+        "accent-dark": "#7A7A7A",
+        "primary": "#A3A3A3FF",
+        "primary-dark": "#A3A3A3FF",
+        "bg-accents": "#38383810",
+        "bg-accents-dark": "#1A1A1A20",
+    },
     
 }
 
